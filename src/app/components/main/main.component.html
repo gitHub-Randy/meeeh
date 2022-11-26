@@ -1,0 +1,15 @@
+
+<div class="body">
+        <img class="cake" src="../../../assets/cake.png" style="width: 50%; height: 50%">
+        <div class="wish">
+            <h2>Herzlichen Glückwunsch</h2> 
+            <h2 id="zg">zum Geburtstag</h2>
+        </div>
+
+        <div class="package">
+            <img src="../../../assets/present.png" style="width: 50%; height: 50%" (click)="unwrap()" 
+            [@bounce]="loading ? animationState : ''" 
+            (@bounce.done)="loading && animationState = !animationState">
+            <h3>Mach mich auf</h3>
+        </div>
+</div>

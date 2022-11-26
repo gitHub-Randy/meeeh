@@ -1,0 +1,46 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+
+.cake {
+    filter: drop-shadow(5px 10px 4px #000000);
+}
+
+.wish {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#zg {
+    margin-top: 0;
+}
+
+.wish > h2 {
+color: white;
+font-family: 'Roboto', sans-serif;
+
+}
+
+.package {
+    margin-top: 5%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.package > img {
+    filter: drop-shadow(5px 10px 4px #000000);
+}
+
+.package > h3 {
+    color: white;
+font-family: 'Roboto', sans-serif;
+}
